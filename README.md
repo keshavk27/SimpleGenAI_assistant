@@ -34,7 +34,12 @@ A modern AI Assistant built with **Streamlit**, **LangChain**, and **OpenAI** fe
 ├── app.py
 ├── requirements.txt
 ├── .env
-└── README.md
+├── README.md
+└── screenshots
+    ├── home.png
+    └── response.png
+
+
 ```
 
 ---
@@ -53,6 +58,7 @@ git clone https://github.com/keshavk27/SimpleGenAI_assistant
 
 ```bash
 conda create --name venv python=3.10
+conda activate venv
 ```
 
 
@@ -67,6 +73,7 @@ pip install -r requirements.txt
 ## 🔑 Environment Variables
 
 Create a `.env` file in the root directory.
+
 
 ```env
 OPENAI_API_KEY=your_openai_api_key
@@ -87,13 +94,13 @@ streamlit run app.py
 
 ## 📸 Screenshots
 
-Add your application screenshots here.
+### Home Screen
 
-Example:
+![Home Screen](screenshots/home.png)
 
-```md
-![App Screenshot](screenshots/app.png)
-```
+### AI Response
+
+![AI Response](screenshots/response.png)
 
 ---
 
@@ -104,7 +111,6 @@ Example `requirements.txt`
 ```txt
 langchain
 python-dotenv
-langchain_community
 pypdf
 bs4
 arxiv
@@ -147,6 +153,4 @@ Built using LangChain and OpenAI.
 
 ---
 
-## 📜 License
 
-This project is licensed under the MIT License.
