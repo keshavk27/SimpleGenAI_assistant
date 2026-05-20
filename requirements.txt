@@ -1,0 +1,12 @@
+langchain
+python-dotenv
+langchain_community
+pypdf
+bs4
+arxiv
+langchain-text-splitters
+langchain-openai
+chromadb
+langchain-community
+faiss-cpu
+streamlit
